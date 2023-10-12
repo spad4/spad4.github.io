@@ -2,3 +2,7 @@ body {
     background-image: url("background.png");
     filter: blur(8px)
 }
+
+p {
+    color: red;
+}
