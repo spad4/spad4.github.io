@@ -13,11 +13,12 @@
     width: 90vw;
     height: 90vh;  
     margin: auto;
+    margin-top: 20vh;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5vw;
 }
 
 #content > div {
