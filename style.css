@@ -40,5 +40,5 @@ p {
 }
 
 img {
-    width: fit-content;
+    object-fit: contain;
 }
