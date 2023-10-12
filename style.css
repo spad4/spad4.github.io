@@ -9,11 +9,19 @@
 }
 
 #content {
-
-    width: 30vw;
-    height: 50vh;
+    
+    width: 90vw;
+    height: 90vh;  
     margin: auto;
-    margin-top: 5vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#content > div {
+
     padding: 20px;
 
     border-radius: 5px;
