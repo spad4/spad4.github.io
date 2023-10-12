@@ -39,6 +39,6 @@ p {
     font-family: "Inconsolata";
 }
 
-img {
+#food > img {
     object-fit: contain;
 }
