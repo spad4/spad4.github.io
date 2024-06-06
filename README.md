@@ -1,6 +1,6 @@
 # Deploy:
-ng build --base-href="https://spad4.github.io/"
-ngh --dir=dist/website
+ng deploy --base-href="https://spad4.github.io"
+should just be `ng deploy` after the first time
 
 # Website
 
