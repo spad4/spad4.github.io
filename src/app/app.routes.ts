@@ -9,5 +9,5 @@ import { AboutMeComponent } from './aboutme/aboutme.component';
 export const routes: Routes = [
     { path: 'socials', component: SocialsComponent },
     { path: 'projects', component: ProjectsComponent },
-    { path: 'about-me', component: AboutMeComponent },
+    { path: 'about-me', component: AboutMeComponent }
 ];
