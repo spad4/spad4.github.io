@@ -1,4 +1,12 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 .project {
+    animation: fadeIn 0.4s;
+    animation-delay: var(--delay);
+    animation-fill-mode: backwards;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5vw;
@@ -8,7 +16,12 @@
 }
 
 img {
+    transition: all ease .25s;
     width: 100%;
+}
+
+img:hover {
+    box-shadow: 0px 0px 100px var(--middle-green);
 }
 
 h1 {
