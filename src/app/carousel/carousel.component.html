@@ -1,0 +1,13 @@
+<div id="container">
+
+    @for (slide of slides; track $index; let index = $index) {
+        @if (currentIndex == index) {
+            <img src="{{ slide.src }}">
+        }
+    }
+
+    <div id="controls">
+        <button id="previous" (click)="previous()"><img src="../../assets/images/arrow.png"></button>
+        <button id="next" (click)="next()"><img src="../../assets/images/arrow.png"></button>
+    </div>
+</div>

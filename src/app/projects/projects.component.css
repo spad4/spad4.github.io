@@ -7,20 +7,23 @@
     animation: fadeIn 0.4s;
     animation-delay: var(--delay);
     animation-fill-mode: backwards;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5vw;
     padding: 1.5vw;
-    font-family: "Rubik", monospace;
     margin-bottom: 2vw;
+
+    font-family: "Rubik", monospace;
 }
 
-img {
+carousel {
     transition: all ease .25s;
     width: 100%;
+    height: 17.3vw;
 }
 
-img:hover {
+carousel:hover {
     box-shadow: 0px 0px 100px var(--middle-green);
 }
 
@@ -37,7 +40,7 @@ h1 + h3 {
 }
 
 h3 {
-    font-size: 0.95vw;
+    font-size: 0.9vw;
     font-weight: 300;
 }
 
