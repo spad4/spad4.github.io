@@ -1,0 +1,18 @@
+/* ABOVE THE FOLD */
+    #main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1.5vw;
+        padding: 1.5vw;
+        font-family: "Inconsolata", monospace;
+        margin-bottom: 2vw;
+    }
+
+    #main * {
+        border: 1px solid white;
+    }
+
+    #main img {
+        width: 75%;
+        border-radius: 20px;
+    }
