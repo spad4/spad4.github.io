@@ -25,6 +25,13 @@ button {
     border: none;
     background-color: transparent;
     opacity: 0;
+    background: rgba(75, 75, 75, 0.50);
+    border-radius: 1000px;
+    width: 4em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 #container:hover button {

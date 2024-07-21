@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CarouselComponent } from '../carousel/carousel.component';
-import YeggsProjects from './projects-list';
+import { YeggsProjects, OtherProjects } from './projects-list';
 import { NgFor, NgClass } from '@angular/common';
 
 @Component({
@@ -12,6 +12,11 @@ import { NgFor, NgClass } from '@angular/common';
 })
 export class ProjectsComponent {
 
-  projectsList = [ YeggsProjects ]
+  categories = [ "YEGGS", "OTHER" ]
+  projectsList = [ YeggsProjects, OtherProjects]
+  currentList = 0
 
+  setProjectList(index: number) {
+    this.currentList = index;
+  }
 }

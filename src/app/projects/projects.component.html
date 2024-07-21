@@ -1,10 +1,9 @@
 <div id="project-navigator">
-    <p>YEGGS</p>
-    <p>OTHER</p>
+    <p [ngClass]="{'category': true, 'selected': index == currentList}" *ngFor="let category of categories; let index = index" (click)="setProjectList(index)">{{category}}</p>
 </div>
 
 <div id="projects">
-    <ng-container *ngFor="let project of projectsList[0]; let odd = odd">
+    <ng-container *ngFor="let project of projectsList[currentList]; let odd = odd">
 
         <div [ngClass]="{'project': true, 'reverse': odd}">
             

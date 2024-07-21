@@ -45,4 +45,19 @@ const YeggsProjects = [
     }
 ]
 
-export default YeggsProjects;
+const OtherProjects = [
+    {
+        "name": "U-Fund",
+        "role": "Full-Stack Developer",
+        "description": 'U-Fund was a group semester-long project for one of my software engineering courses. The goal was to develop a full-stack web-app that allows an admin user to create a list of \'needs\' for helper users to fulfill. We used Angular for the application and Spring for communication with our Model. I did the majority of the front-end design, and also made major contributions to our back-end systems.',
+        "slides": [
+            {src: "../../assets/images/projects/ufund/login.png"},
+            {src: "../../assets/images/projects/ufund/cupboard.png"},
+            {src: "../../assets/images/projects/ufund/edit.png"},
+            {src: "../../assets/images/projects/ufund/basket.png"}
+        ]
+    }
+]
+
+
+export { YeggsProjects, OtherProjects };

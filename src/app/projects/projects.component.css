@@ -9,10 +9,20 @@
     margin: 0.5em 1em;
 }
 
+#project-navigator > p:hover {
+    cursor: pointer;
+}
+
+.selected {
+    color: var(--green);
+    text-shadow: 0px 0px 3px var(--green)
+}
+
 #projects {
     overflow-y: scroll;
     height: 75vh;
-}
+    padding-top: 0.25vw;
+}   
 
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -28,9 +38,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.5vw;
     padding: 1.5vw;
-    margin-bottom: 1vw;
-    margin-top: 1vw;
-    margin-left: -0.75vw;
+    overflow-x: visible;
 
     font-family: "Rubik", monospace;
 }
@@ -54,7 +62,7 @@ carousel {
 }
 
 carousel:hover {
-    box-shadow: 0px 0px 100px var(--middle-green);
+    box-shadow: 0px 0px 30px var(--middle-green);
 }
 
 h1 {
