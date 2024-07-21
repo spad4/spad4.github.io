@@ -8,6 +8,12 @@
         padding-top: 30vh;
         display: grid;
         grid-template-columns: 3fr 1fr;
+        animation: fadeIn 0.25s forwards;
+    }
+
+    @keyframes fadeIn {
+        0% { opacity: 0 }
+        100% { opacity: 1 }
     }
 
     /* #main * {
@@ -22,7 +28,7 @@
     .highlight {
         color: var(--green);
         font-size: 2em;
-        text-shadow: 0px 0px 3px var(--green);
+        text-shadow: 0px 0px 4px var(--green);
         font-family: "Rubik";
         font-weight: normal;
     }

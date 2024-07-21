@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
 
   title = 'website';
 
-  prevUrl = "";
+  page = "";
 
   navAnimation = false;
   navDisabled = true;
@@ -31,6 +31,7 @@ export class AppComponent implements OnInit {
         
         if (this.router.url !== '/') {
           this.navDisabled = false;
+          this.page = this.router.url;
         }
     });
 

@@ -18,12 +18,7 @@ export class HomeComponent {
     animateCursor = false;
 
     title$ = this.typewriterService.getTypingEffect(this.titles).pipe(
-      map((text) => text,
-      finalize(() => {
-        this.animateCursor = true;
-        console.log("AAAA")
-      }))
-    )
+      map((text) => text))
 
 }
 

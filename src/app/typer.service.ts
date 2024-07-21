@@ -24,7 +24,7 @@ export class TyperService {
   typingEffect(word: string) {
     return concat(
       this.type({ word, speed: 50 }),
-      of('').pipe(delay(3000), ignoreElements()),
+      of('').pipe(delay(2500), ignoreElements()),
       this.type({ word, speed: 30, backwards: true }),
       of('').pipe(delay(500), ignoreElements()),
       of('').pipe()
