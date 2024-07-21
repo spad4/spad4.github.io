@@ -1,9 +1,13 @@
 <div id="main">
-    <div>
-        <h1>david altman
-            <br>
-            software engineer
-        </h1>
+    <h1><span class="highlight">hey! i'm david.</span>
+        <br>
+        <div id="subtitle"><span id="prefix">a</span> <span [ngClass]="{'cursor': animateCursor}" id="detail">{{ title$ | async }}</span></div>
+    </h1>
+    <div id="links">
+
+        <a class="link" routerLink="/projects" routerLinkActive="active">PROJECTS</a>
+        <a class="link">ABOUT ME</a>
+        <a class="link">CONTACT</a>
+
     </div>
-    <a class="social"><img src="../assets/images/me.jpg" alt="A picture of me"></a>
 </div>

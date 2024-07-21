@@ -31,7 +31,7 @@ h1 {
     color: var(--green);
     line-height: 50%;
     font-size: 2vw;
-    font-weight: 500;
+    font-weight: normal;
     text-shadow: 0px 0px 3px var(--green);
 }
 
@@ -56,5 +56,5 @@ a {
 }
 
 a:hover {
-    text-shadow: 0px 0px 3px var(--green);
+    text-shadow: 0px 0px 4px var(--green);
 }

@@ -5,20 +5,19 @@
 </head>
 
 <body>
-    <nav>
+  <!-- *ngIf="router.url !== '/' || showNav" -->
+    <nav [ngClass]="{'disappear': router.url === '/'}">
         <div>
-          <a routerLink="/" routerLinkActive="active">SPAd4</a>
-          <a class="social"><img src="../assets/images/socials/discord.png" alt="Discord"></a>
-          <a class="social"><img src="../assets/images/socials/reddit.png" alt="Reddit"></a>
-          <a class="social"><img src="../assets/images/socials/yahoo.png" alt="Email"></a>
+          <a routerLink="/" routerLinkActive="active">hey! i'm david.</a>
           <span></span>
           <a class="navlink" routerLink="/projects" routerLinkActive="active">PROJECTS</a>
-          <a class="navlink" routerLink="/about-me" routerLinkActive="active">ABOUT ME</a>
-          <a class="navlink">?????</a>
+          <a class="navlink">ABOUT ME</a>
+          <a class="navlink">CONTACT</a>
         </div>
     </nav>
 
-  <div>
+
+  <div id="content">
     <router-outlet></router-outlet>
   </div>
 </body>
