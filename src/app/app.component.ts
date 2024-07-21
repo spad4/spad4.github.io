@@ -15,15 +15,10 @@ export class AppComponent implements OnInit {
 
   title = 'website';
 
-  showNav = false;
+  prevUrl = "";
 
-  @HostListener('window:scroll', ['$event'])
-  onWindowScroll() {
-    
-    const scroll = window.scrollY;
-
-    this.showNav = scroll >= 400;
-  }
+  navAnimation = false;
+  navDisabled = true;
 
   ngOnInit() {
     this.router.events.subscribe((evt) => {
@@ -31,6 +26,14 @@ export class AppComponent implements OnInit {
             return;
         }
         window.scrollTo(0, 0)
+
+        this.navAnimation = this.router.url === '/';
+        
+        if (this.router.url !== '/') {
+          this.navDisabled = false;
+        }
     });
+
+    
   }
 }

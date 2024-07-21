@@ -6,12 +6,12 @@
 
 <body>
   <!-- *ngIf="router.url !== '/' || showNav" -->
-    <nav [ngClass]="{'disappear': router.url === '/'}">
+    <nav [ngClass]="{'disappear': navAnimation, 'disabled': navDisabled}">
         <div>
-          <a routerLink="/" routerLinkActive="active">hey! i'm david.</a>
+          <a routerLink="/" routerLinkActive="active" (click)="navAnimation = true">hey! i'm david.</a>
           <span></span>
           <a class="navlink" routerLink="/projects" routerLinkActive="active">PROJECTS</a>
-          <a class="navlink">ABOUT ME</a>
+          <a class="navlink" routerLink="/about-me" routerLinkActive="active">ABOUT ME</a>
           <a class="navlink">CONTACT</a>
         </div>
     </nav>
