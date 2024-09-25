@@ -30,7 +30,7 @@
 }
 
 .project {
-    animation: fadeIn 0.4s;
+    animation: fadeIn 0.75s;
     animation-delay: var(--delay);
     animation-fill-mode: backwards;
 
@@ -85,7 +85,7 @@ h3 {
 p {
     margin-top: 2vw;
     word-wrap: break-word;
-    font-size: 0.9vw;
+    font-size: 1vw;
     font-family: "Poppins";
 }
 

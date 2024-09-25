@@ -1,19 +1,17 @@
-import { NgIf, NgClass } from '@angular/common';
-import { Component, HostListener, OnInit } from '@angular/core';
+import { NgIf, NgClass, CommonModule } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
 import { RouterOutlet, RouterLink, RouterLinkActive, Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, RouterLinkActive, NgIf, NgClass],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, NgIf, NgClass, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
 
   constructor(public router: Router) {}
-
-  title = 'website';
 
   page = "";
 
