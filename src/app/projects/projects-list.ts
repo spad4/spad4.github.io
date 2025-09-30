@@ -19,6 +19,28 @@ const YeggsProjects = [
           ]
     },
     {
+        "name": "Wizarding Wonders",
+        "role": "Lead Developer",
+        "description": 'This was an abandoned project I rebuilt and redesigned to have a clear scope and objective. I focused on creating novel, useful, and interesting items with a bit of mystic charm to them. <br><br>It released on the <a class="projects-link" href="https://www.minecraft.net/en-us/marketplace/pdp/yeggs/wizarding-wonders/d2139b36-a6f7-4136-bcdb-52cecc868cce">Minecraft Marketplace</a> in December 2024.',
+        "slides": [
+            {src: "../../assets/images/projects/wizarding_wonders/thumbnail.jpg"},
+            {src: "../../assets/images/projects/wizarding_wonders/tower_in_a_hat.jpg"},
+            {src: "../../assets/images/projects/wizarding_wonders/top_hat.jpg"},
+            {src: "../../assets/images/projects/wizarding_wonders/gravity_wand.jpg"}
+          ]
+    },
+    {
+        "name": "Sweet Treats",
+        "role": "Lead Developer",
+        "description": 'Sweet Treats was a small dynamic world project I created while I was at an internship. It adds a handful of dessert and candy-related items, each with providing a unique use beyond their value as a food item.<br><br>It released on the <a class="projects-link" href="https://www.minecraft.net/en-us/marketplace/pdp/yeggs/sweet-treats/4feb702a-582c-4640-9f0d-29b8ceda7cae">Minecraft Marketplace</a> in August 2025.',
+        "slides": [
+            {src: "../../assets/images/projects/sweet_treats/thumbnail.jpg"},
+            {src: "../../assets/images/projects/sweet_treats/house.jpg"},
+            {src: "../../assets/images/projects/sweet_treats/geode.jpg"}
+          ]
+    },
+
+    {
         "name": "Tower Defense",
         "role": "Developer",
         "description": 'This was the first project I worked on when I first joined <a class="projects-link"  href="https://www.yeggs.org/" target="_blank">Yeggs</a> back in 2020. I made major contributions to core mechanics, and was responsible for the design of both the towers and enemies. I also designed all of the game\'s balancing and progression.<br><br>It released on <a class="projects-link"  href="https://www.minecraft.net/en-us/article/new-java-realms--it-s-java-realms-day" target="_blank">Minecraft Realms</a> in December 2020.',
