@@ -1,20 +1,20 @@
 #container {
     position: relative;
+    height: 100%;
 }
 
 img {
     width: 100%;
+    display: block
 }
 
 #controls {
+    padding: 15px;
     position: absolute;
-    width: 97.5%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
     display: flex;
+    inset: 0;
     justify-content: space-between;
+    align-items: center;
 
     outline: 0;
 }
@@ -25,8 +25,6 @@ button {
     border: none;
     background-color: transparent;
     opacity: 0;
-    background: rgba(75, 75, 75, 0.50);
-    border-radius: 1000px;
     width: 4em;
     height: 4em;
     display: flex;

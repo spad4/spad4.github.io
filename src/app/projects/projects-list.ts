@@ -75,19 +75,33 @@ const YeggsProjects = [
     }
 ]
 
-const OtherProjects = [
+const GamesProjects = [
     {
-        "name": "U-Fund",
-        "role": "Full-Stack Developer",
-        "description": 'U-Fund was a group semester-long project for one of my software engineering courses. The goal was to develop a full-stack web-app that allows an admin user to create a list of \'needs\' for helper users to fulfill. We used Angular for the application and Spring for communication with our Model. I did the majority of the front-end design, and also made significant contributions to our back-end systems.',
+        "name": "Keep THEM At Bay",
+        "role": "Solo Developer",
+        "description": 'Keep THEM At Bay is a "dead" simple tower defense game about defending a wall from hordes of zombies. After every wave, you\'re presented with either a choice between two upgrades or a choice between two horde mutations.<br><br>It was released <a class="projects-link"  href="https://spad4.itch.io/keep-them-at-bayin" target="_blank">on itch.io</a> in July 2026 as an entry into the <a class="projects-link"  href="https://itch.io/jam/pursuing-pixels-james-jam-game-gam-5" target="_blank">Pursuing Pixels Game Jam</a>, where it placed 3rd of 20 entries.',
         "slides": [
-            {src: "../../assets/images/projects/ufund/login.png"},
-            {src: "../../assets/images/projects/ufund/cupboard.png"},
-            {src: "../../assets/images/projects/ufund/edit.png"},
-            {src: "../../assets/images/projects/ufund/basket.png"}
-        ]
+            {src: "../../assets/images/projects/keep_them_at_bay/logo.png"},
+            {src: "../../assets/images/projects/keep_them_at_bay/turret_firing.png"},
+            {src: "../../assets/images/projects/keep_them_at_bay/mutation_choice.png"},
+            {src: "../../assets/images/projects/keep_them_at_bay/viper_turret.png"},
+            {src: "../../assets/images/projects/keep_them_at_bay/zombies_on_wall.png"}
+          ]
     }
 ]
 
+const ToolsProjects = [
+    {
+        "name": "Dandelion",
+        "role": "Solo Developer",
+        "description": 'Dandelion is a data-driven particle engine made for <a class="projects-link"  href="https://usagiengine.com/" target="_blank">Usagi Engine</a>. It facilitates rapid, code-free particle development and has a built-in playground for quick testing. It\'s heavily inspired by <i>Minecraft Bedrock\'s</i> behavior pack syntax; particles are defined in JSON, and the user is provided a small set of library functions to manage them.<br><br> I released it <a class="projects-link"  href="https://github.com/spad4/dandelion" target="_blank">on Github</a> as an open-source project in June 2026.',
+        "slides": [
+            {src: "../../assets/images/projects/dandelion/dandelion_promo.gif"},
+            {src: "../../assets/images/projects/dandelion/fire_flower.gif"},
+            {src: "../../assets/images/projects/dandelion/damage_numbers.gif"},
+            {src: "../../assets/images/projects/dandelion/laser.gif"}
+          ]
+    }
+]
 
-export { YeggsProjects, OtherProjects };
+export { YeggsProjects, GamesProjects, ToolsProjects };
