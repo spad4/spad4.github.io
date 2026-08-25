@@ -4,7 +4,9 @@ const YeggsProjects = [
         "role": "Lead Developer",
         "description": 'Forcefields was one of my largest and most tech-intensive projects to date. It features multiple novel systems, such as a suit of armor with modular upgrades, and a fully custom UI library with high-resolution animated textures, inventory slots, and programmable elements.',
         "slides": [
-            {src: "../../assets/images/projects/forcefields/forcefields_logo.png"}
+            {src: "../../assets/images/projects/forcefields/forcefields_logo.png"},
+            {src: "../../assets/images/projects/forcefields/forcefield.png"},
+            {src: "../../assets/images/projects/forcefields/upgrade_station_ui.png"}
           ]
     },
     {
