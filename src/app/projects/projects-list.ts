@@ -1,5 +1,13 @@
 const YeggsProjects = [
     {
+        "name": "Forcefields",
+        "role": "Lead Developer",
+        "description": 'Forcefields was one of my largest and most tech-intensive projects to date. It features multiple novel systems, such as a suit of armor with modular upgrades, and a fully custom UI library with high-resolution animated textures, inventory slots, and programmable elements.',
+        "slides": [
+            {src: "../../assets/images/projects/forcefields/forcefields_logo.png"}
+          ]
+    },
+    {
         "name": "Phoenix Fighters",
         "role": "Lead Developer",
         "description": 'Phoenix Fighters is a platform fighter where players gain permanent powerups when they die. As the head of a six person team, I designed and developed the game from the ground up.<br><br>It released on <a class="projects-link"  href="https://www.yeggs.org/java/phoenix-fighters" target="_blank">our website</a> in November 2023.',
